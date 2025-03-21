@@ -15,6 +15,7 @@
     "test": "npx jest",
     "test-coverage": "npx jest --coverage",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --fix",
+    "prepare": "npm run build", 
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "files": [
